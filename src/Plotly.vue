@@ -31,7 +31,8 @@ const functions = [
   'moveTraces',
   'extendTraces',
   'prependTraces',
-  'purge'
+  'purge',
+  'animate'
 ]
 
 const methods = functions.reduce((all, funcName) => {
@@ -127,9 +128,6 @@ export default {
     },
     plot() {
       return Plotly.plot(this.$refs.container, this.data, this.internalLayout, this.getOptions())
-    },
-    animate(data, options) {
-      return Plotly.animate(this.$refs.container, data, options)
     },
     getOptions() {
       let el = this.$refs.container
