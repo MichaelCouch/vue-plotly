@@ -596,7 +596,7 @@ var Component = __webpack_require__(29)(
   /* cssModules */
   null
 )
-Component.options.__file = "C:\\Users\\martinha\\vue-plotly\\src\\Plotly.vue"
+Component.options.__file = "/home/mcouch/code_repos/vue-plotly/src/Plotly.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Plotly.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -651,7 +651,7 @@ exports = module.exports = __webpack_require__(26)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -1074,7 +1074,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 var events = ['click', 'hover', 'unhover', 'selecting', 'selected', 'restyle', 'relayout', 'autosize', 'deselect', 'doubleclick', 'redraw', 'animated', 'afterplot'];
 
-var functions = ['restyle', 'relayout', 'update', 'addTraces', 'deleteTraces', 'moveTraces', 'extendTraces', 'prependTraces', 'purge'];
+var functions = ['restyle', 'relayout', 'update', 'addTraces', 'deleteTraces', 'moveTraces', 'extendTraces', 'prependTraces', 'purge', 'animate'];
 
 var methods = functions.reduce(function (all, funcName) {
   all[funcName] = function () {
