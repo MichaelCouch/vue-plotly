@@ -128,6 +128,9 @@ export default {
     plot() {
       return Plotly.plot(this.$refs.container, this.data, this.internalLayout, this.getOptions())
     },
+    animate(data, options) {
+      return Plotly.animate(this.$refs.container, data, options)
+    },
     getOptions() {
       let el = this.$refs.container
       let opts = this.options
